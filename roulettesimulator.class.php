@@ -169,8 +169,8 @@ class RouletteSimulator
                 "numbers" => array_filter(range(1, 36), fn($n) => $n % 2 === 1),
                 "win" => 2,
             ],
-            "high" => ["numbers" => range(1, 18), "win" => 2],
-            "low" => ["numbers" => range(19, 36), "win" => 2],
+            "low" => ["numbers" => range(1, 18), "win" => 2],
+            "high" => ["numbers" => range(19, 36), "win" => 2],
         ];
     }
 
